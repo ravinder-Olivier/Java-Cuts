@@ -2,13 +2,16 @@
 "name": "JavaCuts",
 "description": "Shortcuts for all those Javascripts kids are using nowadays",
 "version": "1.0",
-"Manifest_version":2,
+"Manifest_version": 3,
+"background": {
+    "service_worker": "background.js",
 "icons": {
     "16": "icons/16px.png",
     "48": "icons/48px.png",
     "128": "icons/128px.png"
 },
-"page_action": {
+"action": {
+    "default_popup": "popup.html"
     "default_icon": {
         "16": "icons/16px.png",
         "48": "icons/48px.png",
@@ -16,6 +19,6 @@
     }
 },
 "content_scripts": [{
-    "matches": [https]
+    "matches": []
 }]
 }
