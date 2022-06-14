@@ -11,7 +11,7 @@
     "128": "icons/128px.png"
 },
 "action": {
-    "default_popup": "popup.html",
+    "default_popup": "index.html",
     "default_title": "JavaCuts",
     "default_icon": {
         "16": "icons/16px.png",
