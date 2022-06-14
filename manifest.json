@@ -11,12 +11,14 @@
     "128": "icons/128px.png"
 },
 "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_title": "JavaCuts",
     "default_icon": {
         "16": "icons/16px.png",
         "48": "icons/48px.png",
         "128": "icons/128px.png"
     }
+
 },
 "content_scripts": [{
     "matches": []
