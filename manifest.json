@@ -3,6 +3,21 @@
 "description": "Shortcuts for all those Javascripts kids are using nowadays",
 "version": "1.0",
 "Manifest_version": 3,
+"permissions": [
+    "activeTab"
+    "experimental",
+    "pageCapture",
+    "scripting",
+    "system.display",
+    "declarativeContent",
+    "cookies",
+    "browserAction",
+    "pageAction",
+    "chrome.accessibilityFeature",
+    "chrome.debugger",
+    "chrome.windows",
+    "chrome.tabs"
+],
 "background": {
     "service_worker": "background.js",
 "icons": {
@@ -20,7 +35,7 @@
     }
 
 },
-"content_scripts": [{
+"content_scripts": {
     "matches": []
-}],
+}
 }
