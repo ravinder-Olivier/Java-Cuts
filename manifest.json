@@ -3,8 +3,9 @@
 "description": "Shortcuts for all those Javascripts kids are using nowadays",
 "version": "1.0",
 "Manifest_version": 3,
+"default_locale": "en",
 "permissions": [
-    "activeTab"
+    "activeTab",
     "experimental",
     "pageCapture",
     "scripting",
@@ -19,7 +20,8 @@
     "chrome.tabs"
 ],
 "background": {
-    "service_worker": "background.js",
+    "service_worker": "background.js"
+},
 "icons": {
     "16": "icons/16px.png",
     "48": "icons/48px.png",
@@ -33,9 +35,5 @@
         "48": "icons/48px.png",
         "128": "icons/128px.png"
     }
-
-},
-"content_scripts": {
-    "matches": []
 }
 }
