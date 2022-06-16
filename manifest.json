@@ -4,6 +4,7 @@
 "version": "1.0",
 "Manifest_version": 3,
 "default_locale": "en",
+"author": "Ravinder Olivier Singh Dadiala", 
 "permissions": [
     "activeTab",
     "experimental",
