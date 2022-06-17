@@ -2,8 +2,7 @@
 "name": "JavaCuts",
 "description": "Shortcuts for all those Javascripts kids are using nowadays",
 "version": "1.0",
-"Manifest_version": 3,
-"default_locale": "en",
+"manifest_version": 3,
 "author": "Ravinder Olivier Singh Dadiala", 
 "permissions": [
     "activeTab",
@@ -20,9 +19,6 @@
     "chrome.windows",
     "chrome.tabs"
 ],
-"background": {
-    "service_worker": "background.js"
-},
 "icons": {
     "16": "icons/16px.png",
     "48": "icons/48px.png",
