@@ -10,8 +10,7 @@
     "scripting",
     "system.display",
     "declarativeContent",
-    "cookies",
-    "browserAction"
+    "cookies"
 
 ],
 "icons": {
