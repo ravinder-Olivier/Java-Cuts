@@ -1,2 +1,2 @@
 # short-cuts-chrome
-Chrome extension for all the weird java bookmarks the ISB Kids have been making...
+Chrome Extension for all the stuff the ISB Kids have been making
