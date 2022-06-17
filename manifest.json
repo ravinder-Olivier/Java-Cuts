@@ -6,18 +6,13 @@
 "author": "Ravinder Olivier Singh Dadiala", 
 "permissions": [
     "activeTab",
-    "experimental",
     "pageCapture",
     "scripting",
     "system.display",
     "declarativeContent",
     "cookies",
-    "browserAction",
-    "pageAction",
-    "chrome.accessibilityFeature",
-    "chrome.debugger",
-    "chrome.windows",
-    "chrome.tabs"
+    "browserAction"
+
 ],
 "icons": {
     "16": "icons/16px.png",
