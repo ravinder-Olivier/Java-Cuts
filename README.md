@@ -1,3 +1,3 @@
 # Java-Cuts For Chrome
 
-Chrome extension for all the java bookmark tools the ISB Kids have been making...
+A chrome extension with many handy tools, all opensource
