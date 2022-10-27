@@ -2,13 +2,12 @@
 "name": "JavaCuts",
 "description": "Chrome Extension For Java Tools",
 "version": "2.3.1",
-"manifest_version": 3,
+"manifest_version": 2,
 "author": "Ravinder Olivier Singh Dadiala", 
 "default_popup": "/index.html",
 "permissions": [
     "activeTab",
     "pageCapture",
-    "scripting",
     "system.display",
     "declarativeContent",
     "cookies"
@@ -21,7 +20,7 @@
 "browser_action": {
     "default_title": "JavaCuts For Chrome",
     "default_icon": {
-        "default_popup": "/index.html",
+        "default_popup": "index.html",
         "16": "icons/16px.png",
         "48": "icons/48px.png",
         "128": "icons/128px.png"
