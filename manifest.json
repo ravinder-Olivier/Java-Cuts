@@ -4,6 +4,7 @@
 "version": "2.3.1",
 "manifest_version": 3,
 "author": "Ravinder Olivier Singh Dadiala", 
+"default_popup": "/index.html",
 "permissions": [
     "activeTab",
     "pageCapture",
@@ -17,10 +18,10 @@
     "48": "icons/48px.png",
     "128": "icons/128px.png"
 },
-"action": {
-    "default_popup": "/index.html",
+"browser_action": {
     "default_title": "JavaCuts For Chrome",
     "default_icon": {
+        "default_popup": "/index.html",
         "16": "icons/16px.png",
         "48": "icons/48px.png",
         "128": "icons/128px.png"
