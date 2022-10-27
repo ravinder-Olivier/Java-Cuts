@@ -19,8 +19,8 @@
 },
 "browser_action": {
     "default_title": "JavaCuts For Chrome",
+    "default_popup": "index.html",
     "default_icon": {
-        "default_popup": "index.html",
         "16": "icons/16px.png",
         "48": "icons/48px.png",
         "128": "icons/128px.png"
